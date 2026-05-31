@@ -694,8 +694,8 @@ function RegionalSection() {
         {/* SEO sentence */}
         <p style={{ color: TEXT_DARK, fontSize: "17px", lineHeight: 1.7, fontWeight: 500 }}>
           {lang === "en"
-            ? "On-site appointments are available in Munich, Berlin, Frankfurt, Hamburg, Stuttgart, Düsseldorf, Vienna, Zurich and many other cities upon request."
-            : "Termine und diskrete Vor-Ort-Einsätze sind unter anderem in München, Berlin, Frankfurt, Hamburg, Stuttgart, Düsseldorf, Wien, Zürich und weiteren Städten möglich."}
+            ? "Lie detector test, polygraph test, polygraph examination in Dortmund, Düsseldorf, Essen, Frankfurt, Freiburg, Hamburg, Cologne, Munich and Stuttgart. Abroad: Austria, Switzerland, Luxembourg, Basel, Zurich, Vienna, Salzburg and Luxembourg."
+            : "Lügendetektor, Lügendetektortest, Lügentest, Polygraph, Polygraphen-Test in Dortmund, Düsseldorf, Essen, Frankfurt, Freiburg, Hamburg, Köln, München und Stuttgart. Im Ausland: Österreich, Schweiz, Luxemburg, Basel, Zürich, Wien, Salzburg und Luxembourg."}
         </p>
       </div>
     </section>
@@ -1614,7 +1614,7 @@ function Footer({ onLegalOpen, docKeyMap }: { onLegalOpen: (key: string) => void
         </div>
         {/* City links row */}
         <div style={{ borderTop: "1px solid rgba(255,255,255,0.07)", paddingTop: "20px", marginBottom: "16px" }}>
-          <p style={{ color: "rgba(255,255,255,0.35)", fontSize: "11px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "2px", marginBottom: "12px" }}>
+          <p style={{ color: "rgba(255,255,255,0.75)", fontSize: "11px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "2px", marginBottom: "12px" }}>
             {lang === "en" ? "Available in:" : "Termine möglich in:"}
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(140px, 1fr))", gap: "6px" }}>
@@ -1624,17 +1624,23 @@ function Footer({ onLegalOpen, docKeyMap }: { onLegalOpen: (key: string) => void
               { name: "Hamburg", href: "/luegendetektor-hamburg" },
               { name: "Frankfurt", href: "/luegendetektor-frankfurt" },
               { name: "Düsseldorf", href: "/luegendetektor-duesseldorf" },
+              { name: "Dortmund", href: "/#contact" },
+              { name: "Essen", href: "/#contact" },
+              { name: "Freiburg", href: "/#contact" },
               { name: "Stuttgart", href: "/luegendetektor-stuttgart" },
               { name: "Köln", href: "/luegendetektor-koeln" },
               { name: "Wien", href: "/polygraph-wien" },
+              { name: "Salzburg", href: "/#contact" },
               { name: "Zürich", href: "/polygraph-zuerich" },
+              { name: "Basel", href: "/#contact" },
               { name: "Österreich", href: "/polygraph-oesterreich" },
               { name: "Schweiz", href: "/polygraph-schweiz" },
+              { name: "Luxemburg", href: "/#contact" },
             ].map(c => (
               <a key={c.name} href={c.href}
-                style={{ display: "inline-flex", alignItems: "center", gap: "5px", color: "rgba(255,255,255,0.45)", fontSize: "12px", textDecoration: "none", padding: "4px 10px", border: "1px solid rgba(255,255,255,0.12)", borderRadius: "3px", transition: "color 0.2s, border-color 0.2s" }}
+                style={{ display: "inline-flex", alignItems: "center", gap: "5px", color: "rgba(255,255,255,0.85)", fontSize: "12px", textDecoration: "none", padding: "4px 10px", border: "1px solid rgba(255,255,255,0.25)", borderRadius: "3px", transition: "color 0.2s, border-color 0.2s" }}
                 onMouseEnter={e => { (e.currentTarget as HTMLAnchorElement).style.color = ORANGE; (e.currentTarget as HTMLAnchorElement).style.borderColor = ORANGE; }}
-                onMouseLeave={e => { (e.currentTarget as HTMLAnchorElement).style.color = "rgba(255,255,255,0.45)"; (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(255,255,255,0.12)"; }}
+                onMouseLeave={e => { (e.currentTarget as HTMLAnchorElement).style.color = "rgba(255,255,255,0.85)"; (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(255,255,255,0.25)"; }}
               >
                 <i className="fas fa-map-pin" style={{ fontSize: "9px", color: ORANGE }}></i>
                 {lang === "en" ? `Lie Detector ${c.name}` : `Lügendetektor ${c.name}`}
