@@ -126,7 +126,7 @@ export const t = {
     email:     { de: "E-Mail",         en: "Email" },
     whatsapp:  { de: "WhatsApp",       en: "WhatsApp" },
     hours:     { de: "Öffnungszeiten", en: "Opening Hours" },
-    hoursVal:  { de: "Täglich 10:00 – 22:00 Uhr", en: "Daily 10:00 – 22:00" },
+    hoursVal:  { de: "Täglich 10:00–22:00 Uhr", en: "Daily 10:00–22:00" },
     hoursSub:  { de: "Termine auch am Wochenende möglich", en: "Appointments also available on weekends" },
     formName:  { de: "Ihr Name *",        en: "Your Name *" },
     formPhone: { de: "Telefonnummer",     en: "Phone Number" },

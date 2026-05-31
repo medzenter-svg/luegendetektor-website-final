@@ -1432,7 +1432,7 @@ function ContactSection() {
             <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
               {[
                 { icon: "fas fa-map-marker-alt", val: "Marienstr. 4, 80331 München" },
-                { icon: "fas fa-clock", val: lang === "de" ? "Mo–Fr 9:00–20:00, Sa 10:00–18:00" : "Mon–Fri 9:00–20:00, Sat 10:00–18:00" },
+                { icon: "fas fa-clock", val: lang === "de" ? "Täglich 10:00–22:00" : "Daily 10:00–22:00" },
                 { icon: "fab fa-whatsapp", val: "WhatsApp: +49 175 6036003", href: "https://wa.me/491756036003" },
               ].map((c, i) => (
                 <div key={i} style={{ display: "flex", alignItems: "center", gap: "10px" }}>
