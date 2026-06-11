@@ -14,7 +14,7 @@ const SPECIALISTS = [
     role: "Leitender Polygraphologe · Berater für Risikomanagement & Verhaltensanalyse",
     exp: "12 Jahre Erfahrung",
     edu: "Höhere Bildung, Praktische Psychologie",
-    photo: "/manus-storage/dimitri_large_65e18c5f.jpg",
+    photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663526446116/hhIzbHTDazbyZcmE.jpg",
     bio: "Dimitri Razarenov ist einer der erfahrensten Polygraphexaminatoren in Deutschland. Er spezialisiert sich auf komplexe Unternehmensermittlungen, Sicherheitsüberprüfungen und Treuetest-Untersuchungen. Seine Ausbildung in praktischer Psychologie ermöglicht ihm eine präzise Einschätzung physiologischer Reaktionsmuster.",
   },
   {
@@ -22,7 +22,7 @@ const SPECIALISTS = [
     role: "Psychologin",
     exp: "",
     edu: "Höhere Bildung, Diplompsychologin",
-    photo: "/manus-storage/tatjana_cropped_8715085d.jpg",
+    photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663526446116/gtvuYrpUWfFuDjii.jpg",
     bio: "Tatjana Neubauer ist Diplompsychologin und versteht die emotionalen Hintergründe jeder Untersuchungssituation. Sie sorgt für eine professionelle, einfühlsame Gesprächsführung.",
   },
 ];
