@@ -254,7 +254,7 @@ export default function FremdgehenBeweisen() {
       <section style={{ backgroundColor: LIGHT_BG, padding: "60px 24px" }}>
         <div style={{ maxWidth: "700px", margin: "0 auto", textAlign: "center" }}>
           <div style={{ width: "60px", height: "60px", backgroundColor: "rgba(255,140,0,0.12)", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 20px" }}>
-            <img src="/manus-storage/logo_clean_f9c5298d_633ac44d.png" alt="Lügendetektor Test München – Logo" loading="eager" fetchPriority="high" style={{ width: "40px", height: "40px", objectFit: "contain" }} />
+            <img src="/__manus__/logo_clean_f9c5298d_633ac44d.png" alt="Lügendetektor Test München – Logo" loading="eager" fetchPriority="high" style={{ width: "40px", height: "40px", objectFit: "contain" }} />
           </div>
           <h2 style={{ color: TEXT_DARK, fontSize: "clamp(22px, 4vw, 30px)", fontWeight: 800, marginBottom: "16px" }}>
             Jetzt Klarheit schaffen

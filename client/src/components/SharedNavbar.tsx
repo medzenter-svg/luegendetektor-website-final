@@ -84,7 +84,7 @@ export default function SharedNavbar() {
           onClick={handleLogoClick}
         >
           <img
-            src="/manus-storage/logo_clean_f9c5298d_633ac44d.png"
+            src="/__manus__/logo_clean_f9c5298d_633ac44d.png"
             alt="Lügendetektor Test München – Logo"
             loading="eager"
             style={{ width: "42px", height: "42px", objectFit: "contain" }}

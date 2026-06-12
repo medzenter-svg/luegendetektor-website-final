@@ -8,8 +8,8 @@ const DARK_NAVY = "#0f1932";
 const ORANGE = "#e67e00";
 const WHITE = "#ffffff";
 
-const DIANA_FULL = "/manus-storage/diana7_full_024c3e37.png";
-const DIANA_COMPACT = "/manus-storage/diana7_compact_e8d7854c.png";
+const DIANA_FULL = "/__manus__/diana7_full.png";
+const DIANA_COMPACT = "/__manus__/diana7_compact.png";
 
 export default function ModerneAusruestung() {
   useEffect(() => {

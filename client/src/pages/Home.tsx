@@ -933,8 +933,8 @@ function AboutSection() {
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "28px", maxWidth: "800px", margin: "0 auto" }}>
             {[
-              { name: t.specialists.s1name[lang], role: t.specialists.s1role[lang], exp: lang === "de" ? "12 Jahre Erfahrung" : "12 years of experience", edu: lang === "de" ? "Höhere Bildung, Praktische Psychologie" : "Higher Education, Practical Psychology", photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663526446116/hhIzbHTDazbyZcmE.jpg" },
-              { name: t.specialists.s2name[lang], role: t.specialists.s2role[lang], exp: "", edu: lang === "de" ? "Höhere Bildung, Diplompsychologin" : "Higher Education, Graduate Psychologist", photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663526446116/gtvuYrpUWfFuDjii.jpg" },
+              { name: t.specialists.s1name[lang], role: t.specialists.s1role[lang], exp: lang === "de" ? "12 Jahre Erfahrung" : "12 years of experience", edu: lang === "de" ? "Höhere Bildung, Praktische Psychologie" : "Higher Education, Practical Psychology", photo: "/__manus__/dimitri_large.jpg" },
+              { name: t.specialists.s2name[lang], role: t.specialists.s2role[lang], exp: "", edu: lang === "de" ? "Höhere Bildung, Diplompsychologin" : "Higher Education, Graduate Psychologist", photo: "/__manus__/tatjana_cropped.jpg" },
             ].map(s => (
               <div key={s.name} style={{ backgroundColor: WHITE, border: `1px solid ${BORDER}`, borderRadius: "8px", overflow: "hidden", borderTop: `4px solid ${ORANGE}`, boxShadow: "0 4px 20px rgba(0,0,0,0.08)" }}>
                 <div style={{ width: "100%" }}>
@@ -1061,8 +1061,8 @@ function SpecialistsSection() {
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "28px", maxWidth: "800px", margin: "0 auto" }}>
           {[
-            { name: t.specialists.s1name[lang], role: t.specialists.s1role[lang], exp: lang === "de" ? "12 Jahre Erfahrung" : "12 years of experience", edu: lang === "de" ? "Höhere Bildung, Praktische Psychologie" : "Higher Education, Practical Psychology", photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663526446116/hhIzbHTDazbyZcmE.jpg" },
-            { name: t.specialists.s2name[lang], role: t.specialists.s2role[lang], exp: "", edu: lang === "de" ? "Höhere Bildung, Diplompsychologin" : "Higher Education, Graduate Psychologist", photo: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663526446116/gtvuYrpUWfFuDjii.jpg" },
+            { name: t.specialists.s1name[lang], role: t.specialists.s1role[lang], exp: lang === "de" ? "12 Jahre Erfahrung" : "12 years of experience", edu: lang === "de" ? "Höhere Bildung, Praktische Psychologie" : "Higher Education, Practical Psychology", photo: "/__manus__/dimitri_large.jpg" },
+            { name: t.specialists.s2name[lang], role: t.specialists.s2role[lang], exp: "", edu: lang === "de" ? "Höhere Bildung, Diplompsychologin" : "Higher Education, Graduate Psychologist", photo: "/__manus__/tatjana_cropped.jpg" },
           ].map(s => (
             <div key={s.name} style={{ backgroundColor: WHITE, border: `1px solid ${BORDER}`, borderRadius: "8px", overflow: "hidden", borderTop: `4px solid ${ORANGE}`, boxShadow: "0 4px 20px rgba(0,0,0,0.08)" }}>
               <div style={{ width: "100%" }}>
