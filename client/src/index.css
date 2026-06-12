@@ -89,10 +89,14 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    overflow-x: hidden;
+  }
   body {
     @apply bg-background text-foreground;
     font-family: 'Lato', sans-serif;
     font-size: 110%;
+    overflow-x: hidden;
   }
   /* Keep navbar font-size unchanged */
   nav, header nav, .navbar, [data-nav] {

@@ -513,11 +513,12 @@ function Navbar() {
   ];
 
   return (
-    <nav className="navbar" style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 1000, backgroundColor: NAVY, fontFamily: "'Lato', sans-serif" }}>
-      <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 24px", display: "flex", alignItems: "center", height: "60px", gap: "20px" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: "10px", cursor: "pointer", flexShrink: 0 }} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-         <img src="/favicon_polygraph_38x38.webp" alt="Lügendetektor Test München – Logo" loading="eager" fetchPriority="high" style={{ width: "42px", height: "42px", objectFit: "contain" }} />
-          <span style={{ color: WHITE, fontWeight: 700, fontSize: "20px", letterSpacing: "1px" }}>luegendetektor-test-muenchen.de</span>
+    <nav className="navbar" style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 1000, backgroundColor: NAVY, fontFamily: "'Lato', sans-serif", overflow: "hidden" }}>
+      <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 16px", display: "flex", alignItems: "center", height: "60px", gap: "12px", minWidth: 0 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "8px", cursor: "pointer", flexShrink: 0, minWidth: 0 }} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+         <img src="/favicon_polygraph_38x38.webp" alt="Lügendetektor Test München – Logo" loading="eager" fetchPriority="high" style={{ width: "38px", height: "38px", objectFit: "contain", flexShrink: 0 }} />
+          <span className="hidden md:block" style={{ color: WHITE, fontWeight: 700, fontSize: "16px", letterSpacing: "0.5px", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>luegendetektor-test-muenchen.de</span>
+          <span className="md:hidden" style={{ color: WHITE, fontWeight: 700, fontSize: "14px", letterSpacing: "0.5px", whiteSpace: "nowrap" }}>Lügendetektor Test</span>
         </div>
         <div className="hidden lg:flex" style={{ flex: 1, gap: "22px", alignItems: "center" }}>
           {links.map(([label, id]) => (
