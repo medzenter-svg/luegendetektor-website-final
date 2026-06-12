@@ -516,7 +516,7 @@ function Navbar() {
     <nav className="navbar" style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 1000, backgroundColor: NAVY, fontFamily: "'Lato', sans-serif" }}>
       <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 24px", display: "flex", alignItems: "center", height: "60px", gap: "20px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "10px", cursor: "pointer", flexShrink: 0 }} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-          <img src="/__manus__/logo_clean_f9c5298d_633ac44d.png" alt="Lügendetektor Test München – Logo" loading="eager" fetchPriority="high" style={{ width: "42px", height: "42px", objectFit: "contain" }} />
+         <img src="/favicon_polygraph_38x38.webp" alt="Lügendetektor Test München – Logo" loading="eager" fetchPriority="high" style={{ width: "42px", height: "42px", objectFit: "contain" }} />
           <span style={{ color: WHITE, fontWeight: 700, fontSize: "20px", letterSpacing: "1px" }}>luegendetektor-test-muenchen.de</span>
         </div>
         <div className="hidden lg:flex" style={{ flex: 1, gap: "22px", alignItems: "center" }}>
@@ -1563,7 +1563,7 @@ function Footer({ onLegalOpen, docKeyMap }: { onLegalOpen: (key: string) => void
         <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr 1fr", gap: "40px", marginBottom: "36px" }} className="grid-footer">
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "14px" }}>
-              <img src="/__manus__/logo_clean_f9c5298d_633ac44d.png" alt="Lügendetektor Test München – luegendetektor-test-muenchen.de" loading="lazy" decoding="async" style={{ width: "38px", height: "38px", objectFit: "contain" }} />
+            <img src="/favicon.png" alt="Lügendetektor Test München – luegendetektor-test-muenchen.de" loading="lazy" decoding="async" style={{ width: "38px", height: "38px", objectFit: "contain" }} />
               <div>
                 <div style={{ color: WHITE, fontWeight: 700, fontSize: "15px", letterSpacing: "1px" }}>luegendetektor-test-muenchen.de</div>
               </div>
@@ -1975,8 +1975,8 @@ function SchemaOrg() {
       "alternateName": "luegendetektor-test-muenchen.de",
       "description": "Professionelle Polygraphuntersuchungen und Lügendetektor-Tests in München. Diskret, zertifiziert und rechtssicher. Für Privatpersonen und Unternehmen.",
       "url": BASE,
-      "logo": `${BASE}/__manus__/logo_clean_f9c5298d_633ac44d.png`,
-      "image": `${BASE}/__manus__/logo_clean_f9c5298d_633ac44d.png`,
+      "logo": `${BASE}/__manus__/favicon_polygraph_38x38.webp_f9c5298d_633ac44d.png`,
+      "image": `${BASE}/__manus__/favicon_polygraph_38x38.webp_f9c5298d_633ac44d.png`,
       "telephone": "+4917560360003",
       "email": "info@luegendetektor-test-muenchen.de",
       "address": {

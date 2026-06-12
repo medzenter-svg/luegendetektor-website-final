@@ -126,7 +126,7 @@ export default function SharedFooter() {
           <div style={{ gridColumn: "span 1" }}>
             <Link href="/" style={{ display: "flex", alignItems: "center", gap: "10px", textDecoration: "none", marginBottom: "14px" }}>
               <img
-                src="/__manus__/logo_clean_f9c5298d_633ac44d.png"
+               src="/favicon.png"
                 alt="Lügendetektor Test München"
                 style={{ width: "36px", height: "36px", objectFit: "contain" }}
               />
