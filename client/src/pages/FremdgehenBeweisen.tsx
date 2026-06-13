@@ -86,16 +86,16 @@ export default function FremdgehenBeweisen() {
       if (!el) { el = document.createElement("link"); el.setAttribute("rel", rel); document.head.appendChild(el); }
       el.setAttribute("href", href);
     };
-    setMeta("description", "Polygraphuntersuchung zum Nachweis oder Ausschluss von Untreue. Offizielles Gutachten mit wissenschaftlich fundierten Ergebnissen. Verwertbarkeit wird von Gerichten im Einzelfall entschieden.");
+    setMeta("description", "Polygraphuntersuchung zum Nachweis oder Ausschluss von Untreue. Wissenschaftlich dokumentierte Ergebnisse zur persönlichen und außergerichtlichen Klärung. Keine Zusicherung einer gerichtlichen Verwertbarkeit.");
     setMeta("og:title", "Fremdgehen beweisen – Polygraphtest | luegendetektor-test-muenchen.de", true);
-    setMeta("og:description", "Polygraphuntersuchung zum Nachweis oder Ausschluss von Untreue. Offizielles Gutachten mit wissenschaftlich fundierten Ergebnissen. Verwertbarkeit wird von Gerichten im Einzelfall entschieden.", true);
+    setMeta("og:description", "Polygraphuntersuchung zum Nachweis oder Ausschluss von Untreue. Wissenschaftlich dokumentierte Ergebnisse zur persönlichen und außergerichtlichen Klärung. Keine Zusicherung einer gerichtlichen Verwertbarkeit.", true);
     setMeta("og:url", "https://luegendetektor-test-muenchen.de/fremdgehen-beweisen", true);
     setMeta("og:type", "website", true);
     setMeta("og:site_name", "Lügendetektor Test München", true);
     setMeta("og:image", "https://luegendetektor-test-muenchen.de/og-image.jpg", true);
     setMeta("twitter:card", "summary_large_image");
     setMeta("twitter:title", "Fremdgehen beweisen – Polygraphtest | luegendetektor-test-muenchen.de");
-    setMeta("twitter:description", "Polygraphuntersuchung zum Nachweis oder Ausschluss von Untreue. Offizielles Gutachten mit wissenschaftlich fundierten Ergebnissen. Verwertbarkeit wird von Gerichten im Einzelfall entschieden.");
+    setMeta("twitter:description", "Polygraphuntersuchung zum Nachweis oder Ausschluss von Untreue. Wissenschaftlich dokumentierte Ergebnisse zur persönlichen und außergerichtlichen Klärung. Keine Zusicherung einer gerichtlichen Verwertbarkeit.");
     setLink("canonical", "https://luegendetektor-test-muenchen.de/fremdgehen-beweisen");
     window.scrollTo(0, 0);
   }, []);
@@ -111,7 +111,7 @@ export default function FremdgehenBeweisen() {
       <SharedNavbar />
       <ServiceSchema
         name="Fremdgehen beweisen – Polygraphuntersuchung"
-        description="Polygraphuntersuchung zum Nachweis oder Ausschluss von Untreue. Offizielles Gutachten mit wissenschaftlich fundierten Ergebnissen. Verwertbarkeit in Gerichtsverfahren wird von Gerichten im Einzelfall entschieden."
+        description="Polygraphuntersuchung zum Nachweis oder Ausschluss von Untreue. Wissenschaftlich dokumentierte Ergebnisse zur persönlichen und außergerichtlichen Klärung. Keine Zusicherung einer gerichtlichen Verwertbarkeit."
         url="/fremdgehen-beweisen"
         serviceType="Treuetest"
         areaServed={["München", "Deutschland", "Österreich", "Schweiz"]}

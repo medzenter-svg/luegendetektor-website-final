@@ -310,8 +310,12 @@ const getServices = (lang: string) => [
         bullets: [
           lang === "en" ? "Reputation restoration: Effective defense against defamation" : "Wiederherstellung des Rufes: Effektive Abwehr von Verleumdungen",
           lang === "en" ? "Career protection: Protection against professional disadvantages from false accusations" : "Karrieresicherung: Schutz vor beruflichen Nachteilen durch falsche Anschuldigungen",
+<<<<<<< Updated upstream
           lang === "en" ? "Official document: A well-founded expert report as evidence of your integrity" : "Ein fundierter Expertenbericht zur Dokumentation der Ergebnisse Ihres Lügendetektor-Tests.
 ",
+=======
+          lang === "en" ? "Official document: A scientifically documented expert report for personal clarity" : "Offizielles Dokument: Ein wissenschaftlich dokumentierter Expertenbericht zur persönlichen Klärung",
+>>>>>>> Stashed changes
         ],
       },
     ],
@@ -489,13 +493,21 @@ const processSteps = [
 
 const faqItems = [
   { q: { de: "Wer kann NICHT am Polygraphtest teilnehmen?", en: "Who CANNOT participate in a polygraph test?" }, a: { de: "Die Teilnahme wird nicht empfohlen für: schwangere Frauen, Kinder unter 14 Jahren, Personen mit psychischen Erkrankungen oder schweren Herzerkrankungen, Personen unter Alkohol- oder Drogeneinfluss sowie Personen, die Beruhigungsmittel oder Medikamente einnehmen, die das Nervensystem beeinflussen.", en: "Participation is not recommended for: pregnant women, children under 14 years, persons with mental illnesses or severe heart conditions, persons under the influence of alcohol or drugs, and persons taking sedatives or medications that affect the nervous system." } },
+<<<<<<< Updated upstream
   { q: { de: "Welche Vor- und Nachteile hat der Einsatz eines Lügendetektors?", en: "What are the advantages and disadvantages of using a lie detector?" }, a: { de: "Vorteile: Hohe Genauigkeit (98–99%), objektive Ergebnisse, ein fundierter Expertenbericht zur Dokumentation der Ergebnisse Ihres Lügendetektor-Tests.
 , schnelle Klärung von Sachverhalten. Nachteile: Ergebnisse können durch bestimmte Medikamente oder Erkrankungen beeinflusst werden, nicht alle Fragen können getestet werden, die Teilnahme muss freiwillig sein.", en: "Advantages: High accuracy (98–99%), objective results, official report as evidence, quick clarification of facts. Disadvantages: Results can be influenced by certain medications or conditions, not all questions can be tested, participation must be voluntary." } },
+=======
+  { q: { de: "Welche Vor- und Nachteile hat der Einsatz eines Lügendetektors?", en: "What are the advantages and disadvantages of using a lie detector?" }, a: { de: "Vorteile: Hohe Genauigkeit (98–99%), objektive Ergebnisse, wissenschaftlich dokumentierte Ergebnisse, schnelle Klärung von Sachverhalten. Nachteile: Ergebnisse können durch bestimmte Medikamente oder Erkrankungen beeinflusst werden, nicht alle Fragen können getestet werden, die Teilnahme muss freiwillig sein.", en: "Advantages: High accuracy (98–99%), objective results, scientifically documented findings, quick clarification of facts. Disadvantages: Results can be influenced by certain medications or conditions, not all questions can be tested, participation must be voluntary." } },
+>>>>>>> Stashed changes
   { q: { de: "Wie wird die Ergebnisqualität sichergestellt?", en: "How is result quality ensured?" }, a: { de: "Bei uns wird jeder Test von mindestens zwei unabhängigen Polygraphologen ausgewertet. Erst wenn beide Experten zum gleichen Ergebnis kommen, wird das Gutachten erstellt. Diese doppelte Prüfung macht unsere Ergebnisse besonders zuverlässig und rechtssicher.", en: "Every test at our practice is evaluated by at least two independent polygraph experts. Only when both experts reach the same conclusion is the report issued. This double-check makes our results especially reliable and legally sound." } },
   { q: { de: "Ist es möglich, den Lügendetektor zu täuschen?", en: "Is it possible to fool the lie detector?" }, a: { de: "Moderne Polygraphtechnologie erkennt Versuche, den Test zu manipulieren. Unsere Experten sind speziell geschult, solche Versuche zu identifizieren. Techniken wie kontrolliertes Atmen oder Muskelanspannung werden durch die Kombination mehrerer Sensoren zuverlässig erkannt.", en: "Modern polygraph technology detects attempts to manipulate the test. Our experts are specially trained to identify such attempts. Techniques such as controlled breathing or muscle tension are reliably detected through the combination of multiple sensors." } },
   { q: { de: "Wie bereitet man sich richtig auf einen Polygraphtest vor?", en: "How do you properly prepare for a polygraph test?" }, a: { de: "Für eine optimale Vorbereitung empfehlen wir: Ausreichend schlafen (mindestens 7–8 Stunden), keinen Alkohol 24 Stunden vor dem Test, keine Beruhigungsmittel ohne ärztliche Notwendigkeit, normale Mahlzeiten einnehmen, bequeme Kleidung tragen und pünktlich erscheinen.", en: "For optimal preparation we recommend: Get sufficient sleep (at least 7–8 hours), no alcohol 24 hours before the test, no sedatives unless medically necessary, eat normal meals, wear comfortable clothing and arrive on time." } },
   { q: { de: "Wie genau ist ein Polygraphtest?", en: "How accurate is a polygraph test?" }, a: { de: "Moderne Polygraphtests, die von zertifizierten Experten durchgeführt werden, erreichen eine Genauigkeit von 95–99%. Unsere Spezialisten verfügen über jahrzehntelange Erfahrung und nutzen modernste Geräte der neuesten Generation.", en: "Modern polygraph tests conducted by certified experts achieve an accuracy of 95–99%. Our specialists have decades of experience and use state-of-the-art equipment of the latest generation." } },
+<<<<<<< Updated upstream
   { q: { de: "Ist der Polygraphtest legal in Deutschland?", en: "Is the polygraph test legal in Germany?" }, a: { de: "Ja, Polygraphtests sind in Deutschland legal, wenn die Teilnahme freiwillig ist. Wir erstellen ein offizielles Gutachten mit wissenschaftlich fundierten Ergebnissen." } },
+=======
+  { q: { de: "Ist der Polygraphtest legal in Deutschland?", en: "Is the polygraph test legal in Germany?" }, a: { de: "Ja, Polygraphtests sind in Deutschland legal, wenn die Teilnahme freiwillig ist. Wir erstellen ein offizielles Gutachten mit wissenschaftlich dokumentierten Ergebnissen zur persönlichen und außergerichtlichen Klärung. Wichtig: Wir sichern keine gerichtliche Verwertbarkeit zu. Die Verwendung in Gerichtsverfahren wird ausschließlich von den zuständigen Gerichten entschieden.", en: "Yes, polygraph tests are legal in Germany when participation is voluntary. We prepare an official report with scientifically documented findings for personal and out-of-court clarification. Important: We do not guarantee admissibility in court proceedings. Any use in court is decided exclusively by the competent courts." } },
+>>>>>>> Stashed changes
 ];
 
 // ─────────────────────────────────────────────
@@ -2074,7 +2086,11 @@ function SchemaOrg() {
           "name": "Welche Vor- und Nachteile hat der Einsatz eines Lügendetektors?",
           "acceptedAnswer": {
             "@type": "Answer",
+<<<<<<< Updated upstream
             "text": "Vorteile: Hohe Genauigkeit (98–99%), objektive Ergebnisse, offizielles Gutachten, schnelle Klärung von Sachverhalten. Nachteile: Ergebnisse können durch bestimmte Medikamente oder Erkrankungen beeinflusst werden, nicht alle Fragen können getestet werden, die Teilnahme muss freiwillig sein."
+=======
+            "text": "Vorteile: Hohe Genauigkeit (98–99%), objektive Ergebnisse, wissenschaftlich dokumentierte Ergebnisse, schnelle Klärung von Sachverhalten. Nachteile: Ergebnisse können durch bestimmte Medikamente oder Erkrankungen beeinflusst werden, nicht alle Fragen können getestet werden, die Teilnahme muss freiwillig sein."
+>>>>>>> Stashed changes
           }
         },
         {
@@ -2114,7 +2130,11 @@ function SchemaOrg() {
           "name": "Ist der Polygraphtest legal in Deutschland?",
           "acceptedAnswer": {
             "@type": "Answer",
+<<<<<<< Updated upstream
             "text": "Ja, Polygraphtests sind in Deutschland legal, wenn die Teilnahme freiwillig ist. Wir erstellen ein offizielles Gutachten mit wissenschaftlich fundierten Ergebnissen."
+=======
+            "text": "Ja, Polygraphtests sind in Deutschland legal, wenn die Teilnahme freiwillig ist. Wir erstellen ein offizielles Gutachten mit wissenschaftlich dokumentierten Ergebnissen zur persönlichen und außergerichtlichen Klärung. Wichtig: Wir sichern keine gerichtliche Verwertbarkeit zu. Die Verwendung in Gerichtsverfahren wird ausschließlich von den zuständigen Gerichten entschieden."
+>>>>>>> Stashed changes
           }
         }
       ]

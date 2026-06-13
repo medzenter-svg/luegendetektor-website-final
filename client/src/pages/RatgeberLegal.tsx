@@ -88,7 +88,7 @@ export default function RatgeberLegal() {
           </p>
           <InlineCTA
             headline="Rechtssichere Untersuchung beauftragen"
-            body="Wir erstellen ein offizielles Gutachten mit wissenschaftlich fundierten Ergebnissen. Die Verwertbarkeit in Gerichtsverfahren wird von Gerichten im Einzelfall entschieden. Wir empfehlen anwaltliche Begleitung."
+            body="Wir erstellen ein offizielles Gutachten mit wissenschaftlich dokumentierten Ergebnissen zur persönlichen und außergerichtlichen Klärung. Wir sichern keine gerichtliche Verwertbarkeit zu."
           />
 
           <p style={{ color: TEXT_MID, fontSize: "17px", lineHeight: 1.95, marginBottom: "28px" }}>
