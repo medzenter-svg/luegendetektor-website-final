@@ -111,7 +111,7 @@ export default function FremdgehenBeweisen() {
       <SharedNavbar />
       <ServiceSchema
         name="Fremdgehen beweisen – Polygraphuntersuchung"
-        description="Polygraphuntersuchung zum Nachweis oder Ausschluss von Untreue. Offizielles Gutachten als Beweismittel in Zivilverfahren."
+        description="Polygraphuntersuchung zum Nachweis oder Ausschluss von Untreue. Offizielles Gutachten mit wissenschaftlich fundierten Ergebnissen. Verwertbarkeit in Gerichtsverfahren wird von Gerichten im Einzelfall entschieden."
         url="/fremdgehen-beweisen"
         serviceType="Treuetest"
         areaServed={["München", "Deutschland", "Österreich", "Schweiz"]}
