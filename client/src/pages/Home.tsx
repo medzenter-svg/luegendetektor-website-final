@@ -310,7 +310,8 @@ const getServices = (lang: string) => [
         bullets: [
           lang === "en" ? "Reputation restoration: Effective defense against defamation" : "Wiederherstellung des Rufes: Effektive Abwehr von Verleumdungen",
           lang === "en" ? "Career protection: Protection against professional disadvantages from false accusations" : "Karrieresicherung: Schutz vor beruflichen Nachteilen durch falsche Anschuldigungen",
-          lang === "en" ? "Official document: A well-founded expert report as evidence of your integrity" : "Offizielles Dokument: Ein fundierter Expertenbericht als Beweismittel für Ihre Integrität",
+          lang === "en" ? "Official document: A well-founded expert report as evidence of your integrity" : "Ein fundierter Expertenbericht zur Dokumentation der Ergebnisse Ihres Lügendetektor-Tests.
+",
         ],
       },
     ],
