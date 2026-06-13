@@ -83,9 +83,7 @@ export default function RatgeberLegal() {
           </div>
 
           <h2 style={{ color: NAVY, fontSize: "22px", fontWeight: 700, marginBottom: "14px", marginTop: "40px" }}>Die Entscheidung des Bundesverfassungsgerichts – richtig eingeordnet</h2>
-          <p style={{ color: TEXT_MID, fontSize: "17px", lineHeight: 1.95, marginBottom: "28px" }}>
-            Das Bundesverfassungsgericht hat in seiner Entscheidung von 1998 (BVerfGE 98, 169) festgestellt, dass Polygraphtests im staatlichen Strafprozess nicht als Beweismittel zugelassen sind. Diese Entscheidung wird häufig missverstanden als allgemeines Verbot der Polygraphie in Deutschland – das ist sie nicht.
-          </p>
+
           <InlineCTA
             headline="Rechtssichere Untersuchung beauftragen"
             body="Wir erstellen ein offizielles Gutachten mit wissenschaftlich dokumentierten Ergebnissen zur persönlichen und außergerichtlichen Klärung. Wir sichern keine gerichtliche Verwertbarkeit zu."
