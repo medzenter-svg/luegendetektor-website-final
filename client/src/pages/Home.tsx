@@ -2114,7 +2114,7 @@ function SchemaOrg() {
           "name": "Ist der Polygraphtest legal in Deutschland?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ja, Polygraphtests sind in Deutschland legal, wenn die Teilnahme freiwillig ist. Wir erstellen ein offizielles Gutachten mit wissenschaftlich fundierten Ergebnissen. Wichtig: Die Verwertbarkeit als Beweismittel in Gerichtsverfahren wird von Gerichten im Einzelfall entschieden. Nach BGH-Rechtsprechung können Polygraphergebnisse als Indiz berücksichtigt werden, sind aber nicht bindend. Wir empfehlen, sich vor Gericht rechtlich beraten zu lassen."
+            "text": "Ja, Polygraphtests sind in Deutschland legal, wenn die Teilnahme freiwillig ist. Wir erstellen ein offizielles Gutachten mit wissenschaftlich fundierten Ergebnissen."
           }
         }
       ]
