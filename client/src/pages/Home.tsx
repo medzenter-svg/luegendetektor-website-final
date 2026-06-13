@@ -2074,7 +2074,7 @@ function SchemaOrg() {
           "name": "Welche Vor- und Nachteile hat der Einsatz eines Lügendetektors?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Vorteile: Hohe Genauigkeit (98–99%), objektive Ergebnisse, offizielles Gutachten als Beweismittel, schnelle Klärung von Sachverhalten. Nachteile: Ergebnisse können durch bestimmte Medikamente oder Erkrankungen beeinflusst werden, nicht alle Fragen können getestet werden, die Teilnahme muss freiwillig sein."
+            "text": "Vorteile: Hohe Genauigkeit (98–99%), objektive Ergebnisse, offizielles Gutachten, schnelle Klärung von Sachverhalten. Nachteile: Ergebnisse können durch bestimmte Medikamente oder Erkrankungen beeinflusst werden, nicht alle Fragen können getestet werden, die Teilnahme muss freiwillig sein."
           }
         },
         {
