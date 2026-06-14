@@ -1822,7 +1822,7 @@ function ReportSection() {
         <p style={{ color: TEXT_MID, lineHeight: 1.8, fontSize: 16, margin: "0 0 28px", textAlign: "center", maxWidth: 780, marginLeft: "auto", marginRight: "auto" }}>{r.intro[L]}</p>
 
         {/* 3 sections grid */}
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 20, marginBottom: 28 }} className="grid-3col">
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 20, marginBottom: 28 }} className="grid-3col">
           {[
             { title: r.section1Title[L], items: r.section1Items.map((i: any) => i[L]) },
             { title: r.section2Title[L], items: r.section2Items.map((i: any) => i[L]) },
