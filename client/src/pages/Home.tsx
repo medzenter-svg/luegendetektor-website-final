@@ -814,10 +814,10 @@ function ServicesSection() {
     <section id="services" style={{ backgroundColor: LIGHT_BG, padding: "48px 0", fontFamily: "'Lato', sans-serif" }}>
       <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "0 24px" }}>
         <div style={{ textAlign: "center", marginBottom: "40px" }}>
-          <p style={{ color: ORANGE, fontSize: "15px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "2px", marginBottom: "8px" }}>Unsere Leistungen</p>
-          <h2 style={{ color: NAVY, fontSize: "clamp(1.8rem, 3.5vw, 2.4rem)", fontWeight: 700, textTransform: "uppercase", letterSpacing: "1px", marginBottom: "8px" }}>EINSATZGEBIETE DES POLYGRAPHEN</h2>
+          <p style={{ color: ORANGE, fontSize: "15px", fontWeight: 700, textTransform: "uppercase", letterSpacing: "2px", marginBottom: "8px" }}>{lang === "de" ? "Unsere Leistungen" : "Our Services"}</p>
+          <h2 style={{ color: NAVY, fontSize: "clamp(1.8rem, 3.5vw, 2.4rem)", fontWeight: 700, textTransform: "uppercase", letterSpacing: "1px", marginBottom: "8px" }}>{lang === "de" ? "EINSATZGEBIETE DES POLYGRAPHEN" : "POLYGRAPH APPLICATIONS"}</h2>
           <div style={{ height: "3px", width: "60px", backgroundColor: BLUE_LINE, margin: "0 auto 12px" }} />
-          <p style={{ color: TEXT_MID, fontSize: "17px" }}>Klicken Sie auf eine Leistung, um mehr Informationen zu erhalten</p>
+          <p style={{ color: TEXT_MID, fontSize: "17px" }}>{lang === "de" ? "Klicken Sie auf eine Leistung, um mehr Informationen zu erhalten" : "Click on a service to get more information"}</p>
         </div>
 
 
