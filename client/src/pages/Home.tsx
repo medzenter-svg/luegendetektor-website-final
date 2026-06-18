@@ -1014,8 +1014,8 @@ function EquipmentSection() {
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
           {[
-            { image: "/Bildschirmfoto2026-06-18um18.51.35.webp", title: "Thorakale Atmung", text: "Erfasst die durch die Atembewegungen des Brustkorbs verursachten Volumen- und Druckveränderungen zur Analyse von Atemfrequenz, Atemtiefe und Atemrhythmus." },
-            { image: "/Bildschirmfoto2026-06-18um18.51.22.webp", title: "Abdominale Atmung", text: "Registriert die durch die Bewegung der Bauchdecke entstehenden respiratorischen Veränderungen und ermöglicht die Beurteilung von Frequenz, Amplitude und Regelmäßigkeit der Bauchatmung." },
+            { image: "/Bildschirmfoto2026-06-18um18.51.22.webp", title: "Thorakale Atmung", text: "Erfasst die durch die Atembewegungen des Brustkorbs verursachten Volumen- und Druckveränderungen zur Analyse von Atemfrequenz, Atemtiefe und Atemrhythmus." },
+            { image: "/Bildschirmfoto2026-06-18um18.51.35.webp", title: "Abdominale Atmung", text: "Registriert die durch die Bewegung der Bauchdecke entstehenden respiratorischen Veränderungen und ermöglicht die Beurteilung von Frequenz, Amplitude und Regelmäßigkeit der Bauchatmung." },
             { image: "/Bildschirmfoto2026-06-18um18.51.50.webp", title: "Hautleitwertreaktion (HLR)", text: "Misst Veränderungen der elektrischen Hautleitfähigkeit, die durch die Aktivität der ekkrinen Schweißdrüsen infolge autonomer nervöser Erregung hervorgerufen werden." },
             { image: "/Bildschirmfoto2026-06-18um18.52.00.webp", title: "Blutdruck und Puls", text: "Erfasst kontinuierliche Veränderungen des arteriellen Druckverlaufs, der Pulsfrequenz und der Pulsamplitude als Parameter der kardiovaskulären Reaktion." },
             { image: "/Bildschirmfoto2026-06-18um18.52.10.webp", title: "Photoplethysmographie (PPG)", text: "Misst optisch bedingte Veränderungen des peripheren Blutvolumens und bildet die Pulswelle sowie vasomotorische Reaktionen der Blutgefäße ab." },
