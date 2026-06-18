@@ -1018,7 +1018,7 @@ function EquipmentSection() {
         <style>{`
           @media (max-width: 768px) {
             .sensor-cards-grid { grid-template-columns: 1fr !important; }
-            .sensor-card-image { height: 400px !important; }
+            .sensor-card-image { height: 250px !important; }
           }
         `}</style>
           {/* Card 1: Thorakale und abdominale Atmung */}
@@ -1112,7 +1112,7 @@ function EquipmentSection() {
               />
             </div>
             <div style={{ padding: "16px" }}>
-              <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "14px", marginBottom: "8px" }}>6. Hauptgerät</h3>
+              <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "14px", marginBottom: "8px" }}>poligraf</h3>
               <p style={{ color: TEXT_MID, fontSize: "13px", lineHeight: 1.6, margin: 0 }}>Zentrale Steuereinheit des Polygraphensystems; verbindet die Sensoren, verarbeitet deren Signale und leitet die Messdaten zur Aufzeichnung und Auswertung an den Computer weiter.</p>
             </div>
           </div>
