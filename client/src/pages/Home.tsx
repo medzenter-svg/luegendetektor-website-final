@@ -1016,27 +1016,27 @@ function EquipmentSection() {
         {/* Sensor Cards Grid */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px", marginTop: "40px" }} className="sensor-cards-grid">
         <style>{`
-          .sensor-card { display: flex; flex-direction: column; height: 100%; }
-          .sensor-card-image { height: 280px; background: #f0f0f0; overflow: hidden; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-          .sensor-card-text { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; }
-          .sensor-card-text h3 { color: #1a2a4a; font-weight: 700; font-size: 14px; margin-bottom: 8px; margin-top: 0; }
-          .sensor-card-text p { color: #666; font-size: 13px; line-height: 1.6; margin: 0; flex-grow: 1; }
+          .sensor-card { display: flex; flex-direction: column; height: 100%; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+          .sensor-card-image { height: 240px; background: #f5f5f5; overflow: hidden; display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; }
+          .sensor-card-image img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+          .sensor-card-text { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-start; }
+          .sensor-card-text h3 { color: #1a2a4a; font-weight: 700; font-size: 16px; margin: 0 0 12px 0; line-height: 1.3; }
+          .sensor-card-text p { color: #555; font-size: 13px; line-height: 1.6; margin: 0; flex-grow: 1; }
           @media (max-width: 768px) {
             .sensor-cards-grid { grid-template-columns: 1fr !important; }
-            .sensor-card { display: flex; flex-direction: column; height: 100%; }
-            .sensor-card-image { height: 180px !important; }
-            .sensor-card-text { padding: 12px !important; }
-            .sensor-card-text h3 { font-size: 13px; margin-bottom: 6px; }
+            .sensor-card { display: flex; flex-direction: column; height: auto; }
+            .sensor-card-image { height: 200px !important; }
+            .sensor-card-text { padding: 16px !important; }
+            .sensor-card-text h3 { font-size: 14px; margin-bottom: 8px; }
             .sensor-card-text p { font-size: 12px; line-height: 1.5; }
           }
         `}</style>
           {/* Card 1: Thorakale und abdominale Atmung */}
-          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }} className="sensor-card">
+          <div className="sensor-card">
             <div className="sensor-card-image">
               <img
                 src="/combined-breathing.webp"
                 alt="Thorakale und abdominale Atmung"
-                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                 loading="lazy"
               />
             </div>
@@ -1047,12 +1047,11 @@ function EquipmentSection() {
           </div>
 
           {/* Card 2: Hautleitwertraktion - HLR */}
-          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }} className="sensor-card">
+          <div className="sensor-card">
             <div className="sensor-card-image">
               <img
                 src="/hlr-sensor.webp"
                 alt="Hautleitwertraktion - HLR"
-                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                 loading="lazy"
               />
             </div>
@@ -1063,12 +1062,11 @@ function EquipmentSection() {
           </div>
 
           {/* Card 3: Blutdruck und Puls */}
-          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }} className="sensor-card">
+          <div className="sensor-card">
             <div className="sensor-card-image">
               <img
                 src="/blood-pressure-hand.png"
                 alt="Blutdruck und Puls"
-                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                 loading="lazy"
               />
             </div>
@@ -1079,12 +1077,11 @@ function EquipmentSection() {
           </div>
 
           {/* Card 4: Photoplethysmographie - PPG */}
-          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }} className="sensor-card">
+          <div className="sensor-card">
             <div className="sensor-card-image">
               <img
                 src="/ppg-finger-clip.webp"
                 alt="Photoplethysmographie - PPG"
-                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                 loading="lazy"
               />
             </div>
@@ -1095,12 +1092,11 @@ function EquipmentSection() {
           </div>
 
           {/* Card 5: Motorische Aktivität - Tremor */}
-          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }} className="sensor-card">
+          <div className="sensor-card">
             <div className="sensor-card-image">
               <img
                 src="/tremor-sensor.webp"
                 alt="Motorische Aktivität - Tremor"
-                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                 loading="lazy"
               />
             </div>
@@ -1111,12 +1107,11 @@ function EquipmentSection() {
           </div>
 
           {/* Card 6: Hauptgerät */}
-          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }} className="sensor-card">
+          <div className="sensor-card">
             <div className="sensor-card-image">
               <img
                 src="/control-unit.webp"
                 alt="Hauptgerät"
-                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                 loading="lazy"
               />
             </div>
