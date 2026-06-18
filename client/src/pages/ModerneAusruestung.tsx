@@ -115,38 +115,34 @@ export default function ModerneAusruestung() {
           </div>
         </div>
 
-        {/* Complete equipment kit image */}
-        <div style={{ background: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 16px rgba(0,0,0,0.08)", marginBottom: "40px" }}>
-          <img
-            src="/polygraph-equipment.jpg"
-            alt="Vollständiges Polygraph-Ausrüstungsset – Diana 7 System mit Laptop, Sensoren, Manschetten, Transportkoffern und Zubehör"
-            style={{ width: "100%", maxHeight: "600px", objectFit: "contain", background: "#fff", padding: "24px" }}
-            loading="lazy"
-          />
-          <div style={{ padding: "24px 32px", borderTop: "1px solid #eee" }}>
-            <p style={{ color: "#666", fontSize: "14px", margin: 0, textAlign: "center", fontStyle: "italic" }}>
-              Vollständiges Polygraph-Ausrüstungsset – Diana 7 mit allen Sensoren, Transportkoffern, Dokumentation und professionellem Zubehör
-            </p>
-          </div>
-        </div>
 
-        {/* Sensor cards */}
+
+        {/* Sensor cards with images */}
         <h2 style={{ color: DARK_NAVY, fontSize: "1.4rem", fontWeight: 700, marginBottom: "24px" }}>
-          Gemessene physiologische Parameter
+          Sensoren und physiologische Parameter
         </h2>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginBottom: "40px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "28px", marginBottom: "40px" }}>
           {[
-            { icon: "fas fa-lungs", title: "Atemfrequenz", text: "Thorakale und abdominale Atmung – zwei unabhängige Kanäle für präzise Atemanalyse." },
-            { icon: "fas fa-heartbeat", title: "Herzfrequenz & Blutdruck", text: "Kontinuierliche kardiovaskuläre Überwachung über Blutdruckmanschette und Pulssensor." },
-            { icon: "fas fa-hand-paper", title: "Hautleitwert (EDA)", text: "Messung der elektrodermalen Aktivität – ein zuverlässiger Indikator für emotionale Reaktionen." },
-            { icon: "fas fa-compress-arrows-alt", title: "Bewegungssensor", text: "Erkennung von Körperbewegungen zur Qualitätssicherung der Messdaten." },
-            { icon: "fas fa-wave-square", title: "Fotoplethysmographie", text: "Optische Messung der Blutvolumenpulse für zusätzliche kardiovaskuläre Daten." },
-            { icon: "fas fa-microchip", title: "Digitale Auswertung", text: "Alle Kanäle werden synchron aufgezeichnet und durch spezialisierte Software analysiert." },
+            { image: "/Bildschirmfoto2026-06-18um18.51.35.webp", title: "Thorakale Atmung", text: "Erfasst die durch die Atembewegungen des Brustkorbs verursachten Volumen- und Druckveränderungen zur Analyse von Atemfrequenz, Atemtiefe und Atemrhythmus." },
+            { image: "/Bildschirmfoto2026-06-18um18.51.22.webp", title: "Abdominale Atmung", text: "Registriert die durch die Bewegung der Bauchdecke entstehenden respiratorischen Veränderungen und ermöglicht die Beurteilung von Frequenz, Amplitude und Regelmäßigkeit der Bauchatmung." },
+            { image: "/Bildschirmfoto2026-06-18um18.51.50.webp", title: "Hautleitwertreaktion (HLR)", text: "Misst Veränderungen der elektrischen Hautleitfähigkeit, die durch die Aktivität der ekkrinen Schweißdrüsen infolge autonomer nervöser Erregung hervorgerufen werden." },
+            { image: "/Bildschirmfoto2026-06-18um18.52.00.webp", title: "Blutdruck und Puls", text: "Erfasst kontinuierliche Veränderungen des arteriellen Druckverlaufs, der Pulsfrequenz und der Pulsamplitude als Parameter der kardiovaskulären Reaktion." },
+            { image: "/Bildschirmfoto2026-06-18um18.52.10.webp", title: "Photoplethysmographie (PPG)", text: "Misst optisch bedingte Veränderungen des peripheren Blutvolumens und bildet die Pulswelle sowie vasomotorische Reaktionen der Blutgefäße ab." },
+            { image: "/Bildschirmfoto2026-06-18um18.52.23.webp", title: "Motorische Aktivität – Tremor", text: "Registriert mechanische Körperbewegungen, Muskelanspannungen und mikromotorische Aktivitäten, die während der Untersuchung auftreten können." },
           ].map(item => (
-            <div key={item.title} style={{ background: WHITE, borderRadius: "8px", padding: "24px", boxShadow: "0 2px 12px rgba(0,0,0,0.06)", borderTop: `3px solid ${ORANGE}` }}>
-              <i className={item.icon} style={{ color: ORANGE, fontSize: "26px", marginBottom: "12px", display: "block" }}></i>
-              <h3 style={{ color: DARK_NAVY, fontSize: "0.95rem", fontWeight: 700, marginBottom: "8px" }}>{item.title}</h3>
-              <p style={{ color: "#555", fontSize: "13px", lineHeight: 1.7, margin: 0 }}>{item.text}</p>
+            <div key={item.title} style={{ background: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)", transition: "transform 0.3s ease, box-shadow 0.3s ease" }}>
+              <div style={{ height: "220px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+                  loading="lazy"
+                />
+              </div>
+              <div style={{ padding: "20px" }}>
+                <h3 style={{ color: DARK_NAVY, fontSize: "0.95rem", fontWeight: 700, marginBottom: "8px" }}>{item.title}</h3>
+                <p style={{ color: "#555", fontSize: "13px", lineHeight: 1.7, margin: 0 }}>{item.text}</p>
+              </div>
             </div>
           ))}
         </div>
