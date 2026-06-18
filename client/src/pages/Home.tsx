@@ -1014,10 +1014,16 @@ function EquipmentSection() {
         </div>
 
         {/* Sensor Cards Grid */}
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px", marginTop: "40px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px", marginTop: "40px", "@media (max-width: 768px)": { gridTemplateColumns: "1fr" } }}>
+        <style>{`
+          @media (max-width: 768px) {
+            .sensor-cards-grid { grid-template-columns: 1fr !important; }
+            .sensor-card-image { height: 400px !important; }
+          }
+        `}</style>
           {/* Card 1: Thorakale und abdominale Atmung */}
           <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-            <div style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <div className="sensor-card-image" style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <img
                 src="/combined-breathing.webp"
                 alt="Thorakale und abdominale Atmung"
@@ -1033,7 +1039,7 @@ function EquipmentSection() {
 
           {/* Card 2: Hautleitwertraktion - HLR */}
           <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-            <div style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <div className="sensor-card-image" style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <img
                 src="/hlr-sensor.webp"
                 alt="Hautleitwertraktion - HLR"
@@ -1049,7 +1055,7 @@ function EquipmentSection() {
 
           {/* Card 3: Blutdruck und Puls */}
           <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-            <div style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <div className="sensor-card-image" style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <img
                 src="/blood-pressure-hand.png"
                 alt="Blutdruck und Puls"
@@ -1065,7 +1071,7 @@ function EquipmentSection() {
 
           {/* Card 4: Photoplethysmographie - PPG */}
           <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-            <div style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <div className="sensor-card-image" style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <img
                 src="/ppg-finger-clip.webp"
                 alt="Photoplethysmographie - PPG"
@@ -1081,7 +1087,7 @@ function EquipmentSection() {
 
           {/* Card 5: Motorische Aktivität - Tremor */}
           <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-            <div style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <div className="sensor-card-image" style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <img
                 src="/tremor-sensor.webp"
                 alt="Motorische Aktivität - Tremor"
@@ -1097,7 +1103,7 @@ function EquipmentSection() {
 
           {/* Card 6: Hauptgerät */}
           <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-            <div style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <div className="sensor-card-image" style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <img
                 src="/control-unit.webp"
                 alt="Hauptgerät"
