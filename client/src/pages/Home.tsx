@@ -1018,7 +1018,7 @@ function EquipmentSection() {
             { image: "/Bildschirmfoto2026-06-18um18.51.50.webp", title: "Hautleitwertreaktion (HLR)", text: "Misst Veränderungen der elektrischen Hautleitfähigkeit, die durch die Aktivität der ekkrinen Schweißdrüsen infolge autonomer nervöser Erregung hervorgerufen werden." },
             { image: "/Bildschirmfoto2026-06-18um18.52.00.webp", title: "Blutdruck und Puls", text: "Erfasst kontinuierliche Veränderungen des arteriellen Druckverlaufs, der Pulsfrequenz und der Pulsamplitude als Parameter der kardiovaskulären Reaktion." },
             { image: "/ppg-sensor.webp", title: "Photoplethysmographie (PPG)", text: "Misst optisch bedingte Veränderungen des peripheren Blutvolumens und bildet die Pulswelle sowie vasomotorische Reaktionen der Blutgefäße ab." },
-            { image: "/tremor-sensor.webp", title: "Motorische Aktivität – Tremor", text: "Registriert mechanische Körperbewegungen, Muskelanspannungen und mikromotorische Aktivitäten, die während der Untersuchung auftreten können." },
+            { image: "/control-unit.webp", title: "Zentrale Steuereinheit", text: "Zentrale Steuereinheit des Polygraphensystems; verbindet die Sensoren, verarbeitet deren Signale und leitet die Messdaten zur Aufzeichnung und Auswertung an den Computer weiter." },
           ].map(item => (
             <div key={item.title} style={{ backgroundColor: WHITE, border: `1px solid ${BORDER}`, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
               <div style={{ height: "200px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
