@@ -115,6 +115,21 @@ export default function ModerneAusruestung() {
           </div>
         </div>
 
+        {/* Complete equipment kit image */}
+        <div style={{ background: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 16px rgba(0,0,0,0.08)", marginBottom: "40px" }}>
+          <img
+            src="/manus-storage/polygraph-equipment_56206fa2.png"
+            alt="Vollständiges Polygraph-Ausrüstungsset – Diana 7 System mit Laptop, Sensoren, Manschetten, Transportkoffern und Zubehör"
+            style={{ width: "100%", maxHeight: "600px", objectFit: "contain", background: "#fff", padding: "24px" }}
+            loading="lazy"
+          />
+          <div style={{ padding: "24px 32px", borderTop: "1px solid #eee" }}>
+            <p style={{ color: "#666", fontSize: "14px", margin: 0, textAlign: "center", fontStyle: "italic" }}>
+              Vollständiges Polygraph-Ausrüstungsset – Diana 7 mit allen Sensoren, Transportkoffern, Dokumentation und professionellem Zubehör
+            </p>
+          </div>
+        </div>
+
         {/* Sensor cards */}
         <h2 style={{ color: DARK_NAVY, fontSize: "1.4rem", fontWeight: 700, marginBottom: "24px" }}>
           Gemessene physiologische Parameter
