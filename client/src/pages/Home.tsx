@@ -1012,21 +1012,28 @@ function EquipmentSection() {
             </p>
           </div>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "20px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
           {[
-            { icon: "fas fa-lungs", title: "Pneumo-Atemgurt", desc: "2 Sensoren messen die Atemaktivität – sowohl Brust- als auch Bauchatmung" },
-            { icon: "fas fa-heartbeat", title: "FPG-Sensor", desc: "Misst die kardiovaskuläre Aktivität und Herzfrequenz in Echtzeit" },
-            { icon: "fas fa-bolt", title: "GSR-Sensor", desc: "Galvanischer Hautwiderstand – misst die elektrodermale Aktivität" },
-            { icon: "fas fa-tachometer-alt", title: "Blutdrucksensor", desc: "Kontinuierliche Überwachung des Blutdrucks während der gesamten Untersuchung" },
-            { icon: "fas fa-hand-paper", title: "Aktivitätssensor", desc: "Erkennt Tremor und Bewegungen, die das Ergebnis beeinflussen könnten" },
-            { icon: "fas fa-laptop", title: "Computeranalyse", desc: "Alle Daten werden in Echtzeit digital erfasst und von spezieller Software analysiert" },
+            { image: "/Bildschirmfoto2026-06-18um18.51.35.webp", title: "Thorakale Atmung", text: "Erfasst die durch die Atembewegungen des Brustkorbs verursachten Volumen- und Druckveränderungen zur Analyse von Atemfrequenz, Atemtiefe und Atemrhythmus." },
+            { image: "/Bildschirmfoto2026-06-18um18.51.22.webp", title: "Abdominale Atmung", text: "Registriert die durch die Bewegung der Bauchdecke entstehenden respiratorischen Veränderungen und ermöglicht die Beurteilung von Frequenz, Amplitude und Regelmäßigkeit der Bauchatmung." },
+            { image: "/Bildschirmfoto2026-06-18um18.51.50.webp", title: "Hautleitwertreaktion (HLR)", text: "Misst Veränderungen der elektrischen Hautleitfähigkeit, die durch die Aktivität der ekkrinen Schweißdrüsen infolge autonomer nervöser Erregung hervorgerufen werden." },
+            { image: "/Bildschirmfoto2026-06-18um18.52.00.webp", title: "Blutdruck und Puls", text: "Erfasst kontinuierliche Veränderungen des arteriellen Druckverlaufs, der Pulsfrequenz und der Pulsamplitude als Parameter der kardiovaskulären Reaktion." },
+            { image: "/Bildschirmfoto2026-06-18um18.52.10.webp", title: "Photoplethysmographie (PPG)", text: "Misst optisch bedingte Veränderungen des peripheren Blutvolumens und bildet die Pulswelle sowie vasomotorische Reaktionen der Blutgefäße ab." },
+            { image: "/Bildschirmfoto2026-06-18um18.52.23.webp", title: "Motorische Aktivität – Tremor", text: "Registriert mechanische Körperbewegungen, Muskelanspannungen und mikromotorische Aktivitäten, die während der Untersuchung auftreten können." },
           ].map(item => (
-            <div key={item.title} style={{ backgroundColor: WHITE, border: `1px solid ${BORDER}`, borderRadius: "8px", padding: "24px", borderTop: `3px solid ${ORANGE}` }}>
-              <div style={{ width: "48px", height: "48px", borderRadius: "50%", backgroundColor: "rgba(255,140,0,0.1)", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "14px" }}>
-                <i className={item.icon} style={{ color: ORANGE, fontSize: "20px" }}></i>
+            <div key={item.title} style={{ backgroundColor: WHITE, border: `1px solid ${BORDER}`, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
+              <div style={{ height: "200px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+                  loading="lazy"
+                />
               </div>
-              <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "18px", marginBottom: "8px" }}>{item.title}</h3>
-              <p style={{ color: TEXT_MID, fontSize: "16px", lineHeight: 1.7 }}>{item.desc}</p>
+              <div style={{ padding: "20px" }}>
+                <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "16px", marginBottom: "8px" }}>{item.title}</h3>
+                <p style={{ color: TEXT_MID, fontSize: "14px", lineHeight: 1.6 }}>{item.text}</p>
+              </div>
             </div>
           ))}
         </div>
