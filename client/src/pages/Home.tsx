@@ -1012,31 +1012,7 @@ function EquipmentSection() {
             </p>
           </div>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
-          {[
-            { image: "/combined-breathing.webp", title: "Thorakale und abdominale Atmung", text: "Erfasst die Atembewegungen von Brustkorb und Bauchdecke und ermöglicht die Analyse von Atemfrequenz, Atemtiefe und Atemrhythmus." },
-            { image: "/hlr-sensor.webp", title: "Hautleitwertreaktion – HLR", text: "Misst Veränderungen der elektrischen Hautleitfähigkeit, die durch die Aktivität der ekkrinen Schweißdrüsen infolge autonomer nervöser Erregung hervorgerufen werden." },
-            { image: "/control-unit.webp", title: "Blutdruck und Puls", text: "Erfasst kontinuierliche Veränderungen des arteriellen Druckverlaufs, der Pulsfrequenz und der Pulsamplitude als Parameter der kardiovaskulären Reaktion." },
-            { image: "/ppg-finger-clip.webp", title: "Photoplethysmographie – PPG", text: "Misst optisch bedingte Veränderungen des peripheren Blutvolumens und bildet die Pulswelle sowie vasomotorische Reaktionen der Blutgefäße ab." },
-            { image: "/tremor-sensor.webp", title: "Motorische Aktivität – Tremor", text: "Registriert mechanische Körperbewegungen, Muskelanspannungen und mikromotorische Aktivitäten, die während der Untersuchung auftreten können." },
-            { image: "/blood-pressure-1.webp", title: "Hauptgerät", text: "Zentrale Steuereinheit des Polygraphensystems; verbindet die Sensoren, verarbeitet deren Signale und leitet die Messdaten zur Aufzeichnung und Auswertung an den Computer weiter." },
-          ].map(item => (
-            <div key={item.title} style={{ backgroundColor: WHITE, border: `1px solid ${BORDER}`, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-              <div style={{ height: "200px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
-                  loading="lazy"
-                />
-              </div>
-              <div style={{ padding: "20px" }}>
-                <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "16px", marginBottom: "8px" }}>{item.title}</h3>
-                <p style={{ color: TEXT_MID, fontSize: "14px", lineHeight: 1.6 }}>{item.text}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+
       </div>
     </section>
   );
