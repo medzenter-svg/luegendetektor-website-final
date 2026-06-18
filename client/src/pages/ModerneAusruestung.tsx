@@ -124,7 +124,7 @@ export default function ModerneAusruestung() {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "28px", marginBottom: "40px" }}>
           {[
             { image: "/combined-breathing.webp", title: "Atemfrequenz und Atemrhythmus", text: "Erfasst die Atembewegungen von Brustkorb und Bauchdecke und ermöglicht die Analyse von Atemfrequenz, Atemtiefe und Atemrhythmus." },
-            { image: "/Bildschirmfoto2026-06-18um18.51.50.webp", title: "Hautleitwertreaktion (HLR)", text: "Misst Veränderungen der elektrischen Hautleitfähigkeit, die durch die Aktivität der ekkrinen Schweißdrüsen infolge autonomer nervöser Erregung hervorgerufen werden." },
+            { image: "/hlr-sensor.webp", title: "Hautleitwertreaktion (HLR)", text: "Misst Veränderungen der elektrischen Hautleitfähigkeit, die durch die Aktivität der ekkrinen Schweißdrüsen infolge autonomer nervöser Erregung hervorgerufen werden." },
             { image: "/Bildschirmfoto2026-06-18um18.52.00.webp", title: "Blutdruck und Puls", text: "Erfasst kontinuierliche Veränderungen des arteriellen Druckverlaufs, der Pulsfrequenz und der Pulsamplitude als Parameter der kardiovaskulären Reaktion." },
             { image: "/ppg-sensor.webp", title: "Photoplethysmographie (PPG)", text: "Misst optisch bedingte Veränderungen des peripheren Blutvolumens und bildet die Pulswelle sowie vasomotorische Reaktionen der Blutgefäße ab." },
             { image: "/control-unit.webp", title: "Zentrale Steuereinheit", text: "Zentrale Steuereinheit des Polygraphensystems; verbindet die Sensoren, verarbeitet deren Signale und leitet die Messdaten zur Aufzeichnung und Auswertung an den Computer weiter." },
