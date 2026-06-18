@@ -1112,7 +1112,7 @@ function EquipmentSection() {
               />
             </div>
             <div style={{ padding: "16px" }}>
-              <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "14px", marginBottom: "8px" }}>poligraf</h3>
+              <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "14px", marginBottom: "8px" }}>6. Poligraf</h3>
               <p style={{ color: TEXT_MID, fontSize: "13px", lineHeight: 1.6, margin: 0 }}>Zentrale Steuereinheit des Polygraphensystems; verbindet die Sensoren, verarbeitet deren Signale und leitet die Messdaten zur Aufzeichnung und Auswertung an den Computer weiter.</p>
             </div>
           </div>
