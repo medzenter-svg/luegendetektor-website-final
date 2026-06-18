@@ -1051,7 +1051,7 @@ function EquipmentSection() {
           <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
             <div style={{ height: "200px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <img
-                src="/blood-pressure-1.webp"
+                src="/blood-pressure.png"
                 alt="Blutdruck und Puls"
                 style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
                 loading="lazy"
