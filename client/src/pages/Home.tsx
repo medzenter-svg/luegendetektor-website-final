@@ -998,6 +998,20 @@ function EquipmentSection() {
           <div style={{ height: "3px", width: "60px", backgroundColor: BLUE_LINE, margin: "0 auto 14px" }} />
           <p style={{ color: TEXT_MID, fontSize: "17px", maxWidth: "600px", margin: "0 auto" }}>{lang === "de" ? "Wir verwenden ausschließlich professionelle Computerpolygraphen der neuesten Generation" : "We use exclusively professional computer polygraphs of the latest generation"}</p>
         </div>
+        {/* Equipment image */}
+        <div style={{ background: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)", marginBottom: "40px" }}>
+          <img
+            src="/manus-storage/polygraph-equipment_56206fa2.png"
+            alt="Vollständiges Polygraph-Ausrüstungsset mit Diana 7 System, Sensoren, Transportkoffern und professionellem Zubehör"
+            style={{ width: "100%", maxHeight: "500px", objectFit: "contain", background: "#f5f5f5", padding: "24px" }}
+            loading="lazy"
+          />
+          <div style={{ padding: "16px 24px", borderTop: "1px solid #eee", textAlign: "center" }}>
+            <p style={{ color: "#666", fontSize: "13px", margin: 0, fontStyle: "italic" }}>
+              Vollständiges Polygraph-Ausrüstungsset mit allen Sensoren, Transportkoffern und Zubehör
+            </p>
+          </div>
+        </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "20px" }}>
           {[
             { icon: "fas fa-lungs", title: "Pneumo-Atemgurt", desc: "2 Sensoren messen die Atemaktivität – sowohl Brust- als auch Bauchatmung" },
