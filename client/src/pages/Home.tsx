@@ -1001,7 +1001,7 @@ function EquipmentSection() {
         {/* Equipment image */}
         <div style={{ background: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)", marginBottom: "40px" }}>
           <img
-            src="/manus-storage/polygraph-equipment_56206fa2.png"
+            src="/manus-storage/polygraph-equipment_45201afa.png"
             alt="Vollständiges Polygraph-Ausrüstungsset mit Diana 7 System, Sensoren, Transportkoffern und professionellem Zubehör"
             style={{ width: "100%", maxHeight: "500px", objectFit: "contain", background: "#f5f5f5", padding: "24px" }}
             loading="lazy"

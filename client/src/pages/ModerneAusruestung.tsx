@@ -118,7 +118,7 @@ export default function ModerneAusruestung() {
         {/* Complete equipment kit image */}
         <div style={{ background: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 16px rgba(0,0,0,0.08)", marginBottom: "40px" }}>
           <img
-            src="/manus-storage/polygraph-equipment_56206fa2.png"
+            src="/manus-storage/polygraph-equipment_45201afa.png"
             alt="Vollständiges Polygraph-Ausrüstungsset – Diana 7 System mit Laptop, Sensoren, Manschetten, Transportkoffern und Zubehör"
             style={{ width: "100%", maxHeight: "600px", objectFit: "contain", background: "#fff", padding: "24px" }}
             loading="lazy"
