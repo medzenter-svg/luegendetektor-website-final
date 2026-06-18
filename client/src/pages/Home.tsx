@@ -1014,7 +1014,7 @@ function EquipmentSection() {
         </div>
 
         {/* Sensor Cards Grid */}
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px", marginTop: "40px", "@media (max-width: 768px)": { gridTemplateColumns: "1fr" } }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px", marginTop: "40px" }} className="sensor-cards-grid">
         <style>{`
           @media (max-width: 768px) {
             .sensor-cards-grid { grid-template-columns: 1fr !important; }
