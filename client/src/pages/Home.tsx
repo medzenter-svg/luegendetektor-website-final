@@ -1027,7 +1027,7 @@ function EquipmentSection() {
               <img
                 src="/combined-breathing.webp"
                 alt="Thorakale und abdominale Atmung"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                 loading="lazy"
               />
             </div>
@@ -1043,7 +1043,7 @@ function EquipmentSection() {
               <img
                 src="/hlr-sensor.webp"
                 alt="Hautleitwertraktion - HLR"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                 loading="lazy"
               />
             </div>
@@ -1059,7 +1059,7 @@ function EquipmentSection() {
               <img
                 src="/blood-pressure-hand.png"
                 alt="Blutdruck und Puls"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                 loading="lazy"
               />
             </div>
@@ -1075,7 +1075,7 @@ function EquipmentSection() {
               <img
                 src="/ppg-finger-clip.webp"
                 alt="Photoplethysmographie - PPG"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                 loading="lazy"
               />
             </div>
@@ -1091,7 +1091,7 @@ function EquipmentSection() {
               <img
                 src="/tremor-sensor.webp"
                 alt="Motorische Aktivität - Tremor"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                 loading="lazy"
               />
             </div>
@@ -1107,7 +1107,7 @@ function EquipmentSection() {
               <img
                 src="/control-unit.webp"
                 alt="Hauptgerät"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
                 loading="lazy"
               />
             </div>
