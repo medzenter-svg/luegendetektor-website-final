@@ -1023,11 +1023,11 @@ function EquipmentSection() {
           .sensor-card-text p { color: #666; font-size: 13px; line-height: 1.6; margin: 0; flex-grow: 1; }
           @media (max-width: 768px) {
             .sensor-cards-grid { grid-template-columns: 1fr !important; }
-            .sensor-card { display: grid; grid-template-columns: 120px 1fr; gap: 12px; align-items: start; }
-            .sensor-card-image { height: 120px !important; width: 120px; flex-shrink: 0; }
-            .sensor-card-text { padding: 0 !important; }
-            .sensor-card-text h3 { font-size: 13px; margin-bottom: 4px; }
-            .sensor-card-text p { font-size: 12px; line-height: 1.4; }
+            .sensor-card { display: flex; flex-direction: column; height: 100%; }
+            .sensor-card-image { height: 180px !important; }
+            .sensor-card-text { padding: 12px !important; }
+            .sensor-card-text h3 { font-size: 13px; margin-bottom: 6px; }
+            .sensor-card-text p { font-size: 12px; line-height: 1.5; }
           }
         `}</style>
           {/* Card 1: Thorakale und abdominale Atmung */}
