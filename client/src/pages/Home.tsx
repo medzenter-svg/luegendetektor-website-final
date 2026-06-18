@@ -1016,14 +1016,19 @@ function EquipmentSection() {
         {/* Sensor Cards Grid */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px", marginTop: "40px" }} className="sensor-cards-grid">
         <style>{`
+          .sensor-card { display: flex; flex-direction: column; height: 100%; }
+          .sensor-card-image { height: 280px; background: #f0f0f0; overflow: hidden; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+          .sensor-card-text { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; }
+          .sensor-card-text h3 { color: #1a2a4a; font-weight: 700; font-size: 14px; margin-bottom: 8px; margin-top: 0; }
+          .sensor-card-text p { color: #666; font-size: 13px; line-height: 1.6; margin: 0; flex-grow: 1; }
           @media (max-width: 768px) {
             .sensor-cards-grid { grid-template-columns: 1fr !important; }
-            .sensor-card-image { height: 250px !important; }
+            .sensor-card-image { height: 240px !important; }
           }
         `}</style>
           {/* Card 1: Thorakale und abdominale Atmung */}
-          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-            <div className="sensor-card-image" style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }} className="sensor-card">
+            <div className="sensor-card-image">
               <img
                 src="/combined-breathing.webp"
                 alt="Thorakale und abdominale Atmung"
@@ -1031,15 +1036,15 @@ function EquipmentSection() {
                 loading="lazy"
               />
             </div>
-            <div style={{ padding: "16px" }}>
-              <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "14px", marginBottom: "8px" }}>1. Thorakale und abdominale Atmung</h3>
-              <p style={{ color: TEXT_MID, fontSize: "13px", lineHeight: 1.6, margin: 0 }}>Erfasst die Atembewegungen von Brustkorb und Bauchdecke und ermöglicht die Analyse von Atemfrequenz, Atemtiefe und Atemrhythmus.</p>
+            <div className="sensor-card-text">
+              <h3>1. Thorakale und abdominale Atmung</h3>
+              <p>Erfasst die Atembewegungen von Brustkorb und Bauchdecke und ermöglicht die Analyse von Atemfrequenz, Atemtiefe und Atemrhythmus.</p>
             </div>
           </div>
 
           {/* Card 2: Hautleitwertraktion - HLR */}
-          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-            <div className="sensor-card-image" style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }} className="sensor-card">
+            <div className="sensor-card-image">
               <img
                 src="/hlr-sensor.webp"
                 alt="Hautleitwertraktion - HLR"
@@ -1047,15 +1052,15 @@ function EquipmentSection() {
                 loading="lazy"
               />
             </div>
-            <div style={{ padding: "16px" }}>
-              <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "14px", marginBottom: "8px" }}>2. Hautleitwertraktion - HLR</h3>
-              <p style={{ color: TEXT_MID, fontSize: "13px", lineHeight: 1.6, margin: 0 }}>Misst Veränderungen der elektrischen Hautleitfähigkeit, die durch die Aktivität der ekkrinen Schweißdrusen infolge autonomer nervöser Erregung hervorgerufen werden.</p>
+            <div className="sensor-card-text">
+              <h3>2. Hautleitwertraktion - HLR</h3>
+              <p>Misst Veränderungen der elektrischen Hautleitfähigkeit, die durch die Aktivität der ekkrinen Schweißdrusen infolge autonomer nervöser Erregung hervorgerufen werden.</p>
             </div>
           </div>
 
           {/* Card 3: Blutdruck und Puls */}
-          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-            <div className="sensor-card-image" style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }} className="sensor-card">
+            <div className="sensor-card-image">
               <img
                 src="/blood-pressure-hand.png"
                 alt="Blutdruck und Puls"
@@ -1063,15 +1068,15 @@ function EquipmentSection() {
                 loading="lazy"
               />
             </div>
-            <div style={{ padding: "16px" }}>
-              <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "14px", marginBottom: "8px" }}>3. Blutdruck und Puls</h3>
-              <p style={{ color: TEXT_MID, fontSize: "13px", lineHeight: 1.6, margin: 0 }}>Erfasst kontinuierliche Veränderungen des arteriellen Druckverlaufs, der Pulsfrequenz und der Pulsamplitude als Parameter der kardiovaskulären Reaktion.</p>
+            <div className="sensor-card-text">
+              <h3>3. Blutdruck und Puls</h3>
+              <p>Erfasst kontinuierliche Veränderungen des arteriellen Druckverlaufs, der Pulsfrequenz und der Pulsamplitude als Parameter der kardiovaskulären Reaktion.</p>
             </div>
           </div>
 
           {/* Card 4: Photoplethysmographie - PPG */}
-          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-            <div className="sensor-card-image" style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }} className="sensor-card">
+            <div className="sensor-card-image">
               <img
                 src="/ppg-finger-clip.webp"
                 alt="Photoplethysmographie - PPG"
@@ -1079,15 +1084,15 @@ function EquipmentSection() {
                 loading="lazy"
               />
             </div>
-            <div style={{ padding: "16px" }}>
-              <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "14px", marginBottom: "8px" }}>4. Photoplethysmographie - PPG</h3>
-              <p style={{ color: TEXT_MID, fontSize: "13px", lineHeight: 1.6, margin: 0 }}>Misst optisch bedingte Veränderungen des peripheren Blutvolumens und bildet die Pulswelle sowie vasomotorische Reaktionen der Blutgefäße ab.</p>
+            <div className="sensor-card-text">
+              <h3>4. Photoplethysmographie - PPG</h3>
+              <p>Misst optisch bedingte Veränderungen des peripheren Blutvolumens und bildet die Pulswelle sowie vasomotorische Reaktionen der Blutgefäße ab.</p>
             </div>
           </div>
 
           {/* Card 5: Motorische Aktivität - Tremor */}
-          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-            <div className="sensor-card-image" style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }} className="sensor-card">
+            <div className="sensor-card-image">
               <img
                 src="/tremor-sensor.webp"
                 alt="Motorische Aktivität - Tremor"
@@ -1095,15 +1100,15 @@ function EquipmentSection() {
                 loading="lazy"
               />
             </div>
-            <div style={{ padding: "16px" }}>
-              <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "14px", marginBottom: "8px" }}>5. Motorische Aktivität - Tremor</h3>
-              <p style={{ color: TEXT_MID, fontSize: "13px", lineHeight: 1.6, margin: 0 }}>Registriert mechanische Körperbewegungen, Muskelansännungen und mikromotorische Aktivitäten, die während der Untersuchung auftreten können.</p>
+            <div className="sensor-card-text">
+              <h3>5. Motorische Aktivität - Tremor</h3>
+              <p>Registriert mechanische Körperbewegungen, Muskelansännungen und mikromotorische Aktivitäten, die während der Untersuchung auftreten können.</p>
             </div>
           </div>
 
           {/* Card 6: Hauptgerät */}
-          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}>
-            <div className="sensor-card-image" style={{ height: "300px", background: "#f0f0f0", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ backgroundColor: WHITE, borderRadius: "8px", overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }} className="sensor-card">
+            <div className="sensor-card-image">
               <img
                 src="/control-unit.webp"
                 alt="Hauptgerät"
@@ -1111,9 +1116,9 @@ function EquipmentSection() {
                 loading="lazy"
               />
             </div>
-            <div style={{ padding: "16px" }}>
-              <h3 style={{ color: NAVY, fontWeight: 700, fontSize: "14px", marginBottom: "8px" }}>6. Poligraf</h3>
-              <p style={{ color: TEXT_MID, fontSize: "13px", lineHeight: 1.6, margin: 0 }}>Zentrale Steuereinheit des Polygraphensystems; verbindet die Sensoren, verarbeitet deren Signale und leitet die Messdaten zur Aufzeichnung und Auswertung an den Computer weiter.</p>
+            <div className="sensor-card-text">
+              <h3>6. Poligraf</h3>
+              <p>Zentrale Steuereinheit des Polygraphensystems; verbindet die Sensoren, verarbeitet deren Signale und leitet die Messdaten zur Aufzeichnung und Auswertung an den Computer weiter.</p>
             </div>
           </div>
         </div>
