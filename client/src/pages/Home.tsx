@@ -3,6 +3,7 @@ import { legalDocs } from "../data/legalDocs";
 import { useLang } from "../contexts/LanguageContext";
 import { t } from "../data/translations";
 import { Link } from "wouter";
+import polygraphPhoto from "../assets/polygraph_photo.webp";
 
 // ============================================================
 // POLYGRAPH – lügendetektortest.com
@@ -1110,8 +1111,8 @@ function EquipmentSection() {
           <div className="sensor-card">
             <div className="sensor-card-image">
               <img
-                src="/manus-storage/poligraf-device_3fe885f9.png"
-                alt="Poligraf Gerät"
+                src={polygraphPhoto}
+                alt="Poligraf-Hauptgerät mit Laptop"
                 loading="lazy"
               />
             </div>
