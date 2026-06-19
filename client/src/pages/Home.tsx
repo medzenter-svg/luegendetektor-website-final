@@ -1110,8 +1110,8 @@ function EquipmentSection() {
           <div className="sensor-card">
             <div className="sensor-card-image">
               <img
-                src="/control-unit.webp"
-                alt="Hauptgerät"
+                src="/manus-storage/poligraf-device_800f9147.png"
+                alt="Poligraf Gerät"
                 loading="lazy"
               />
             </div>
