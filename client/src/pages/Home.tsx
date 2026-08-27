@@ -12,8 +12,7 @@ import polygraphPhoto from "../assets/polygraph_photo.webp";
 // Orange Akzente #FF8C00, weißer Titel, Feature-Badges
 // ============================================================
 
-const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663526446116/98H8B7b2JtQkTeebFbhAkq/hero-polygraph-paper-MaAhbCa9xSEqKupKcjLp98.webp";
-
+const HERO_IMG = "/__manus__/hero-polygraph-paper_opt.jpg";
 const NAVY = "#1a2a4a";
 const NAVY_DARK = "#111d35";
 const ORANGE = "#FF8C00";
